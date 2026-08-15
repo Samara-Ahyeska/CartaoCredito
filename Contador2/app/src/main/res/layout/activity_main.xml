@@ -7,9 +7,9 @@
     android:layout_height="match_parent"
     android:background="#FAFAFA"
     tools:context=".MainActivity"
-    tools:ignore="Typos"> <!-- Essa linha remove os avisos de "Typo" no português -->
+    tools:ignore="Typos">
 
-    <!-- Quadrado Azul Claro centralizado na tela -->
+
     <LinearLayout
         android:layout_width="320dp"
         android:layout_height="320dp"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <!-- Número do Contador -->
+
         <TextView
             android:id="@+id/textContador"
             android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
             android:textColor="#212121"
             android:textSize="36sp" />
 
-        <!-- Botão Aumentar -->
+
         <Button
             android:id="@+id/btnAumentar"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:textSize="16sp"
             app:cornerRadius="24dp" />
 
-        <!-- Botão Diminuir -->
+
         <Button
             android:id="@+id/btnDiminuir"
             android:layout_width="match_parent"
@@ -58,7 +58,6 @@
             android:textSize="16sp"
             app:cornerRadius="24dp" />
 
-        <!-- Botão Zerar -->
         <Button
             android:id="@+id/btnZerar"
             android:layout_width="match_parent"
